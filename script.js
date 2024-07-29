@@ -6,28 +6,32 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Na sua opinião deveriamos para de andar com automóveis poluentes",
+        enunciado: "Na sua opinião deveriamos para de andar com automóveis poluentes?.",
         alternativas: [
             {
-                texto: "Isso faz mal ao meio-ambiente",
-                afirmacao: "Eu creio que sim"
+                texto: "Claro, isso faz mal ao meio-ambiente.",
+                afirmacao: "Sim."
             },
             {
-                texto: "Isso ainda é útil independete do efeito",
-                afirmacao: "Eu creio que não"
+                texto: "Não, isso causaria um impactor economico imenso.",
+                afirmacao: "Não."
+            },
+            {
+                texto: "Sim, e não, eu creio que poderiamos parar de utilizar, mas deveriamos progredir calmamente.",
+                afirmacao: "Depende."
             }
         ]
     },
     {
-        enunciado: ""
+        enunciado: "Você acredita que o governo deva investir mais em reciclagem?.",
         alternativas: [
-            {a pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+            {
+                texto: "Acredito que sim",
+                afirmacao: "Sim."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Acredito que não.",
+                afirmacao: "Não."
             }
         ]
     },
